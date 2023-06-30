@@ -37,14 +37,14 @@ rosclean
 ```
 # ROS Information Commands
 ```
-rostopic
-rosservice
-rosnode
-rosparam
-rosbag
-rosmsg
-rossrv
-rosversion
+rostopic    bw delay echo find hz info list pub type
+rosservice  args call find info list type uri
+rosnode     ping list info machine kill cleanup
+rosparam    set get load dump delete list
+rosbag      check compress decompress decrypt encrypt filter fix help info play record reindex
+rosmsg      show info list md5 package packages
+rossrv      show info list md4 package packages
+rosversion  -a -d
 roswtf
 ```
 # ROS Catkin Commands
@@ -66,3 +66,4 @@ roslocate
 roscreate-pkg
 rosmake
 ```
+
