@@ -5,11 +5,14 @@
         {
             "name": "Linux",
             "includePath": [
+                "../../**",
                 "${workspaceFolder}/**",
-                "/opt/ros/melodic/include",
-                "~/catkin_ws/devel/include"
+                "/opt/ros/noetic/include/",
+                "/usr/include/pcl-1.10",
+                "/usr/include/eigen3"
             ],
             "defines": [],
+            "compilerPath": "/usr/bin/gcc",
             "cStandard": "c17",
             "cppStandard": "gnu++14",
             "intelliSenseMode": "gcc-x64"
