@@ -5,8 +5,7 @@
         {
             "name": "Linux",
             "includePath": [
-                "../../**",
-                "${workspaceFolder}/**",
+                "${workspaceFolder}/../../**",
                 "/opt/ros/noetic/include/",
                 "/usr/include/pcl-1.10",
                 "/usr/include/eigen3"
